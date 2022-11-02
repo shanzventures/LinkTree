@@ -107,15 +107,6 @@ p {
   color: var(--third-color);
 }
 
-button {
-  padding: 20px;
-  margin: 10px;
-  margin-bottom: 20px;
-  background: var(--third-color);
-  border-color: var(--text-color);
-  transition: all 200ms ease-in-out;
-}
-
 button:hover {
   background-color: var(--secondary-color);
   color: var(--text-color);
