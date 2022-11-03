@@ -45,7 +45,7 @@ body {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 600px;
   height: 500px;
   padding: 10px;
 }
@@ -53,6 +53,7 @@ body {
 h1 {
   text-align: center;
   color: var(--secondary-color);
+  margin-top: 75px;
 }
 
 h2 {
@@ -115,4 +116,17 @@ button:hover {
 
 .chimp-heading {
   color: #3455ab;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--secondary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+  color: var(--fourth-color);
 }

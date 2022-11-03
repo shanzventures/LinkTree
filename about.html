@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Website/Portfolio</title>
     <link rel="stylesheet" href="src/style.css" />
-     <link
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
@@ -17,27 +17,57 @@
 
   <div class="container">
     <body>
-      <div class="nav-container">
-    <body>
-      <div class="nav-bar">
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="faq.html">FAQ</a>
-          </li>
-        </ul>
-      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfMO0ddifX2fIe7RmGAbFVn4UX4suy8-1SAG02VXVlI6XSjzA/viewform?usp=sf_link"
+                  >Enquiry Form</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mailto:shanmcgov93@gmail.com"
+                  >Contact Me</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
       <h1>Shannon McGovern</h1>
       <h2>Web Developer, Social Media Manager & Virtual Assistant</h2>
       <h3>Based in the UK</h3>
       <img src="images/about.jpg" alt="Shanzventure.VA Logo" class="logo" />
-      
+
       <p>
         My name is Shannon, and I’m from a coastal town in Scotland called
         Dunbar. I had always known I wanted to leave my home and see the world,
@@ -67,7 +97,10 @@
         which I love. It has given me time to spend with my family, puppers and
         friends. I have time to take courses and learn new skills.
       </p>
-      <a href="index.html" class="homepage"> Return to homepage </a>
+      <h2 class="text-center">Contact me</h2>
+      <a href="mailto:shanzventures@gmail.com" class="email-link">
+        shanzventures@gmail.com
+      </a>
     </body>
   </div>
 </html>
