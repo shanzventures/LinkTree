@@ -48,6 +48,7 @@ body {
   max-width: 600px;
   height: 500px;
   padding: 10px;
+  padding-bottom: 20px;
 }
 
 h1 {
@@ -66,14 +67,16 @@ h3 {
 }
 
 p {
-  display: block;
+  display: flex;
+  justify-content: center;
   text-align: center;
+  max-width: 90%;
   padding: 10px;
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
   background: var(--third-color);
-  font-size: 20px;
+  font-size: 15px;
   line-height: 1.5;
   color: var(--text-color);
 }
@@ -116,6 +119,10 @@ button:hover {
 
 .chimp-heading {
   color: #3455ab;
+}
+
+.contact-section {
+  padding-top: 50px;
 }
 
 .email-link {
