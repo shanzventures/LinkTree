@@ -45,8 +45,7 @@ body {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  max-width: 600px;
-  height: 500px;
+  width: 400px;
   padding: 10px;
   padding-bottom: 20px;
 }
@@ -76,7 +75,7 @@ p {
   margin-top: 10px;
   margin-bottom: 10px;
   background: var(--third-color);
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.5;
   color: var(--text-color);
 }
