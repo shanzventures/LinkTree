@@ -19,8 +19,7 @@ body {
   background-attachment: fixed;
 }
 
-.nav-bar {
-  border: solid 1px #f4b4b7;
+.container {
   list-style: none;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -64,6 +63,9 @@ h2 {
 h3 {
   text-align: center;
   color: var(--secondary-color);
+}
+
+.carousel-item {
 }
 
 p {
