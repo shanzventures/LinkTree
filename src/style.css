@@ -4,6 +4,8 @@
   --third-color: #f4b4b7;
   --fourth-color: #518ece;
   --text-color: #ffff;
+  --font-family-heading: "Fjalla One", sans-serif;
+  --font-family-default: "Poppins", sans-serif;
   --background: linear-gradient(
     108.1deg,
     rgb(167, 220, 225) 11.2%,
@@ -17,6 +19,7 @@ body {
   height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-family: var(--font-family-default);
 }
 
 .container {
@@ -54,18 +57,18 @@ h1 {
   text-align: center;
   color: var(--secondary-color);
   margin-top: 75px;
+  font-family: var(--font-family-heading);
 }
 
 h2 {
   text-align: center;
   color: var(--text-color);
+  font-family: var(--font-family-heading);
 }
 h3 {
   text-align: center;
   color: var(--secondary-color);
-}
-
-.carousel-item {
+  font-family: var(--font-family-heading);
 }
 
 p {
